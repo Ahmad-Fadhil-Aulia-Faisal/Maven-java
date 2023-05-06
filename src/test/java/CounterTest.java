@@ -7,11 +7,11 @@ import org.junit.Test;
 public class CounterTest {
 
 	@Test
-	public void testReset() {
+	public void testResets() {
 		Counter testCounter = new Counter();
 		
 		for(int i = 0; i <10; i++) {
-			testCounter.increment();
+			testCounter.increments();
 		}
 		
 		testCounter.reset();
@@ -20,7 +20,7 @@ public class CounterTest {
 	}
 
 	@Test
-	public void testIncrement() {
+	public void testIncrements() {
 		Counter testCounter = new Counter();
 		
 		for(int i = 1; i <10; i++) {
@@ -30,7 +30,7 @@ public class CounterTest {
 	}
 
 	@Test
-	public void testDecrement() {
+	public void testDecrements() {
 		Counter testCounter = new Counter();
 		
 		for(int i = 1; i <10; i++) {
